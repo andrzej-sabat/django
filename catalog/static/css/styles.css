@@ -1,0 +1,13 @@
+.sidebar-nav {
+    margin-top: 20px;
+	margin-left:20;
+    padding: 0;
+    list-style: none;
+	font-size:50dp;
+}
+.sidebar-nav{
+	background-color:#8eb9e0;
+	font-size:100dp;
+	color:white;
+}
+

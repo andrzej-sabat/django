@@ -1,0 +1,28 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Local Library </h1>
+
+<p>Application for managing books in the local library</p>
+<p>Created by:</p>
+<p>Andrzej Sabat</p>
+<p>Damian Wawrzkowicz</p>
+<p>Matuesz Sobkowicz</p>
+
+
+
+
+
+<h2>Application statistics</h2>
+
+<p>The app currently has:</p>
+<ul>
+<li><strong>Books:</strong> {{ num_books }}</li>
+<li><strong>Books available:</strong> {{ num_instances_available }}</li>
+<li><strong>Authors:</strong> {{ num_authors }}</li>
+</ul>
+
+
+
+
+{% endblock %}
